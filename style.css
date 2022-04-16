@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color:cadetblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.tout{
+    background-color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:600px;
+    height:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+h2{
+    color:cadetblue;
+    text-align:center;
+    font-size:30px;
+    padding:0 30px;
+    border: 2px solid cadetblue;
+    text-transform: uppercase;
+    position:sticky;
+}
+
+.tout .grande_1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 300px;
+}
+
+.tout .grande_2{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+input[type=submit]{
+    height:30px;
+    width:80px;
+    background-color:cadetblue;
+    border: 0px;
+    cursor:pointer;
+    color:white;
+}
+
+input[type=submit]:hover{
+    background-color:white;
+    color: cadetblue;
+    border:1px solid cadetblue;
+}
+
+input[type=text]{
+    width:300px;
+    height:25px;
+}
+
+table .fa{
+    font-size:20px;
+    text-align:center;
+    color: cadetblue;
+
+}
+
+table .fa:hover{
+    color:rgb(7, 69, 71);
+    cursor: pointer;
+}
+
+table{
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+/* input[type=text]{
+    width:70%;
+    height:30px;
+}
+input[type=submit]{
+    width:20%;
+    height:30px;
+} */
+
+
+.supprimer button{
+    background-color:red;
+    color:white;
+    border:0;
+    padding:10px;
+    width:100px;
+    border-radius: 10px;
+    font-size:15px;
+    cursor:pointer;
+
+}
+
+.supprimer button:hover{
+    background-color:white;
+    border:1px solid red;
+    color: red;
+}
+
+table tr td{
+    padding:0 100px;
+    height:30px;
+}
+
+#i{
+    text-align:center;
+}
+
+#ti{
+    font-weight: bold;
+    font-size:20px;
+}
+
+#tache2,#tache4{
+    background-color:rgb(225, 226, 228);
+}
+
+#tache1,#tache3,#tache5{
+    background-color:rgb(0, 242, 250);
+}
+
